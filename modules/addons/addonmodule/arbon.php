@@ -16,19 +16,6 @@ function arbon_config()
         'language' => 'english',
         'version' => '1.0',
         'fields' => [
-            'is_production' => [
-                'FriendlyName' => 'Is Production?',
-                'Type' => 'boolean',
-                'Default' => false,
-                'Description' => 'Switches between production and dev environments',
-            ],
-
-            'access_t' => [
-                'FriendlyName' => 'Is Production?',
-                'Type' => 'boolean',
-                'Default' => false,
-                'Description' => 'Switches between production and dev environments',
-            ],
 
             'amount' => [
                 'FriendlyName' => 'Amount',
